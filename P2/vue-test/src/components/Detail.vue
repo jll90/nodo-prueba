@@ -14,7 +14,7 @@
         Titulos: {{ character.titles.length > 0 ? character.titles.join(", ") : "No tiene"}}
       </div>
       <div>
-        Libros: {{ character.titles.length > 0 ? character.titles.join(", ") : "No tiene"}}
+        Libros: {{ character.books.length > 0 ? character.books.join(", ") : "No tiene"}}
       </div>
     </div>
   </div>
